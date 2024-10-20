@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Time Machine</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+        <img src="static/logo.png" alt="logo" class="logo">
+
+    <!--<div class="container">
+        <div class="search-box">
+            <input type="text" class="search-bar">
+            <div class="line">Enter travel year</div>
+            <button class="search-button">Search</button>
+        </div>    
+    </div>-->    
+    <div class="wrapper">
+        <form action="/submit" method="POST">
+        <input type="text" name="year" placeholder="Enter travel year " id="year" >
+        <button type="submit" onclick="window.location.href={{('submit') }}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M5 12l14 0"></path>
+                <path d="M13 18l6 -6"></path>
+                <path d="M13 6l6 6"></path>
+            </svg>
+        </button>
+    </form>
+    </div>
+
+    <div class="playlist">
+        
+    </div>
+
+</body>
+</html>

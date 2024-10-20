@@ -1,0 +1,134 @@
+body {
+    background-image:url('/static/cover.png');
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+img{
+    display: block;
+    width:30%;
+    float:left;
+    padding-left:140px;
+    padding-top:275px;
+}
+
+.cover{
+   height:100%;
+   width:100%; 
+   margin:0;
+   padding:0;
+   display: block;
+   align-content: center
+}
+
+/*.container{
+    width: 25%;
+    position:relative;
+    left:23%;
+    padding-top:320px;
+
+}
+
+.search-box{
+    position:relative;
+    height:80px;
+    line-height: 80px;
+
+}
+
+input{
+     position:absolute;
+     background:transparent;
+     outline:none;
+     border:2px solid #fff;
+     width: 100%;
+     padding: 0 30px;
+     font-size: 28px;
+     line-height:80px;
+     border-radius: 10px;
+     transition:0.1s ease;
+     z-index:1111;
+     color: #fff;
+}
+
+.line{
+    position:absolute;
+    font-size:20px;
+    padding:0 25px;
+    margin:0 20px;
+    transition: 0.2s ease;
+}
+
+.search-button{
+    padding-top:
+}
+
+input:focus + .line,
+input:valid + .line{
+     color:#2BDE6A;
+     height:30px;
+     line-height:30px;
+     transform:translate(-15px,-16px) scale(0.88);
+     z-index:1111;
+     padding:0 12px;
+}
+     */
+    button {
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    
+    input {
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top:310px;
+        display:block;
+    }
+    
+    input:focus {
+        outline: 2px solid white;
+    }
+    
+    input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    /* Button on top of the Input */
+    .wrapper {
+        width: 400px;
+        max-width: 100%;
+        position: relative;
+        margin-left:255px;
+    }
+    
+    .wrapper input {
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid white;
+        border-radius: 50px;
+        padding: 1rem 2rem;
+        width: 85%;
+    }
+    
+    .wrapper button {
+        background: white;
+        border-radius: 50px;
+        aspect-ratio: 1;
+        height: 10%;
+        position: absolute;
+        top: 10%;
+        right:5px;
+        margin-top:280px;
+    }
+h1{
+    font-size: 20px;
+    color:#1Dbe56;
+    display:flex;
+}
